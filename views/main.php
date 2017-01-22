@@ -2,8 +2,8 @@
 <html lang ="en">
 <head>
 	<title>Link Share</title>
-	<link rel="stylesheet" href="assets/css/bootstrap.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo ROOT_URL; ?>assets/css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo ROOT_URL; ?>assets/css/style.css" type="text/css" />
 </head>
 <body>
 	<nav class="navbar navbar-default">
