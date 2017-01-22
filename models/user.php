@@ -42,7 +42,7 @@ class UserModel extends Model{
 				);
 				header('Location: ' . ROOT_URL . 'shares' );
 			} else {
-				echo 'Incorrect Login ';
+				echo 'Incorrect login ';
 			}
 		}
 		return;
