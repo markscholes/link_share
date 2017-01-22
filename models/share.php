@@ -20,8 +20,8 @@ class ShareModel extends Model{
 			if($this->lastInsertId()){
 				//successful
 				//redirect
-				header('location: ' . ROOT_URL . 'shares');
-			} else echo "failed";
+				header('Location: ' . ROOT_URL . 'shares');
+			}
 		}
 		return;
 	}

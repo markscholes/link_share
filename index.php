@@ -1,5 +1,6 @@
+<?php session_start(); ?>
 <?php require("config.php"); ?>
-<?php require("classes/bootstrap.php");?>
+<?php require("classes/Bootstrap.php");?>
 <?php require("classes/Controller.php");?>
 <?php require("classes/Model.php");?>
 
