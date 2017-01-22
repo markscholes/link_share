@@ -48,4 +48,4 @@ Temporary Items
 
 config.php
 
-models\user.php
+models/user.php
