@@ -3,6 +3,7 @@
 <?php require("classes/Bootstrap.php");?>
 <?php require("classes/Controller.php");?>
 <?php require("classes/Model.php");?>
+<?php require("classes/messages.php");?>
 
 <?php require("controllers/home.php");?>
 <?php require("controllers/shares.php");?>

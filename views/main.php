@@ -15,7 +15,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Link Share</a>
+          <a class="navbar-brand" href="<?php echo ROOT_URL; ?>">Link Share</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
@@ -39,6 +39,7 @@
 		<br />
     <div class="container">
 			<div class="row">
+				<?php Messages::display();?>
 				<?php require($view);?>
 			</div>
     </div><!-- /.container -->
